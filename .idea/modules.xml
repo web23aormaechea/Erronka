@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Erronka.iml" filepath="$PROJECT_DIR$/.idea/Erronka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kalkulagailua/Kalkulagailua.iml" filepath="$PROJECT_DIR$/Kalkulagailua/Kalkulagailua.iml" />
+    </modules>
+  </component>
+</project>
