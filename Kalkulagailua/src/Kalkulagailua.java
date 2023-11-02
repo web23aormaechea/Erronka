@@ -67,5 +67,17 @@ public class Kalkulagailua {
     }
 
     private static void menu() {
+        System.out.println("===================================================================================");
+        System.out.println("==================             MALTUNA KALKULAGAILUA              =================");
+        System.out.println("===================================================================================");
+        System.out.println("===== Ondorengo eragiketak egin ditzaket, sakatu zenbakia eta lagunduko dizut! ====");
+        System.out.println("== 1. BATUKETA                                                                   ==");
+        System.out.println("== 2. KENKETA                                                                    ==");
+        System.out.println("== 3. BIDERKETA                                                                  ==");
+        System.out.println("== 4. ZATIKETA                                                                   ==");
+        System.out.println("== 5. BERREKETA                                                                  ==");
+        System.out.println("== 6. ERROKETA                                                                   ==");
+        System.out.println("== 7. BUKATU PROGRAMA                                                            1==");
+        System.out.println("===================================================================================");
     }
 }
