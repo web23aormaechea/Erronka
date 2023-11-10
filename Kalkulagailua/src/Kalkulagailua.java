@@ -52,28 +52,31 @@ public class Kalkulagailua {
         int zenbaki1, zenbaki2, emaitza;
         Scanner eskanerra = new Scanner(System.in);
 
-        System.out.println("===================================================== KENKETA =========================================================");
+        System.out.println("===================================================================================");
+        System.out.println("=========================             KENKETA             =========================");
+        System.out.println("===================================================================================");
         System.out.println("Sartu lehen zenbakia");
         zenbaki1 = eskanerra.nextInt();
         System.out.println("Sartu bigarren zenbakia");
         zenbaki2 = eskanerra.nextInt();
         emaitza = zenbaki1 - zenbaki2;
         System.out.println("Sartutako zenbakien kenketa " +emaitza+ " da!");
-        System.out.println("========================================================================================================================");
+        System.out.println("===================================================================================");
     }
 
     private static void batuketa() {
         int zenbaki1, zenbaki2, emaitza;
         Scanner eskanerra = new Scanner(System.in);
-
-        System.out.println("===================================================== BATUKETA =========================================================");
+        System.out.println("===================================================================================");
+        System.out.println("=========================            BATUKETA             =========================");
+        System.out.println("===================================================================================");
         System.out.println("Sartu lehen zenbakia");
         zenbaki1 = eskanerra.nextInt();
         System.out.println("Sartu bigarren zenbakia");
         zenbaki2 = eskanerra.nextInt();
         emaitza = zenbaki1 + zenbaki2;
         System.out.println("Sartutako zenbakien batura " +emaitza+ " da!");
-        System.out.println("========================================================================================================================");
+        System.out.println("===================================================================================");
 
     }
 
