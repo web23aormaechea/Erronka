@@ -46,6 +46,18 @@ public class Kalkulagailua {
     }
 
     private static void biderketa() {
+        int zenbaki1, zenbaki2, emaitza;
+        Scanner eskanerra = new Scanner(System.in);
+        System.out.println("===================================================================================");
+        System.out.println("=========================            BIDERKETA            =========================");
+        System.out.println("===================================================================================");
+        System.out.println("Sartu lehen zenbakia");
+        zenbaki1 = eskanerra.nextInt();
+        System.out.println("Sartu bigarren zenbakia");
+        zenbaki2 = eskanerra.nextInt();
+        emaitza = zenbaki1 * zenbaki2;
+        System.out.println("Sartutako zenbakien biderketa " +emaitza+ " da!");
+        System.out.println("===================================================================================");
     }
 
     private static void kenketa() {
