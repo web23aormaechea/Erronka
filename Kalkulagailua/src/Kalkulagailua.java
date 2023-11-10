@@ -43,6 +43,17 @@ public class Kalkulagailua {
     }
 
     private static void zatiketa() {
+        int zenbaki1, zenbaki2;
+        Scanner eskanerra = new Scanner(System.in);
+        System.out.println("===================================================================================");
+        System.out.println("=========================            BIDERKETA            =========================");
+        System.out.println("===================================================================================");
+        System.out.println("Sartu lehen zenbakia");
+        zenbaki1 = eskanerra.nextInt();
+        System.out.println("Sartu bigarren zenbakia");
+        zenbaki2 = eskanerra.nextInt();
+        System.out.println("Sartutako zenbakien zatiketa " +(double)zenbaki1/zenbaki2+ " da!");
+        System.out.println("===================================================================================");
     }
 
     private static void biderketa() {
