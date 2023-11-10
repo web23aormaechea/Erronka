@@ -37,9 +37,31 @@ public class Kalkulagailua {
     }
 
     private static void erroketa() {
+        int zenbaki1, zenbaki2;
+        Scanner eskanerra = new Scanner(System.in);
+        System.out.println("===================================================================================");
+        System.out.println("=========================            BERREKETA            =========================");
+        System.out.println("===================================================================================");
+        System.out.println("Sartu lehen zenbakia");
+        zenbaki1 = eskanerra.nextInt();
+        System.out.println("Sartu bigarren zenbakia");
+        zenbaki2 = eskanerra.nextInt();
+        System.out.println("Sartutako zenbakien erroketa " +Math.pow(zenbaki1, (double)1/zenbaki2)+ " da!");
+        System.out.println("===================================================================================");
     }
 
     private static void berreketa() {
+        int zenbaki1, zenbaki2;
+        Scanner eskanerra = new Scanner(System.in);
+        System.out.println("===================================================================================");
+        System.out.println("=========================            BERREKETA            =========================");
+        System.out.println("===================================================================================");
+        System.out.println("Sartu lehen zenbakia");
+        zenbaki1 = eskanerra.nextInt();
+        System.out.println("Sartu bigarren zenbakia");
+        zenbaki2 = eskanerra.nextInt();
+        System.out.println("Sartutako zenbakien berreketa " +Math.pow(zenbaki1, zenbaki2)+ " da!");
+        System.out.println("===================================================================================");
     }
 
     private static void zatiketa() {
@@ -114,7 +136,7 @@ public class Kalkulagailua {
         System.out.println("== 4. ZATIKETA                                                                   ==");
         System.out.println("== 5. BERREKETA                                                                  ==");
         System.out.println("== 6. ERROKETA                                                                   ==");
-        System.out.println("== 7. BUKATU PROGRAMA                                                            1==");
+        System.out.println("== 7. BUKATU PROGRAMA                                                            ==");
         System.out.println("===================================================================================");
     }
 }
