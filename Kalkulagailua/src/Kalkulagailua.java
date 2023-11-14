@@ -40,7 +40,7 @@ public class Kalkulagailua {
         int zenbaki1, zenbaki2;
         Scanner eskanerra = new Scanner(System.in);
         System.out.println("===================================================================================");
-        System.out.println("=========================            BERREKETA            =========================");
+        System.out.println("=========================             ERROKETA            =========================");
         System.out.println("===================================================================================");
         System.out.println("Sartu lehen zenbakia");
         zenbaki1 = eskanerra.nextInt();
@@ -68,7 +68,7 @@ public class Kalkulagailua {
         int zenbaki1, zenbaki2;
         Scanner eskanerra = new Scanner(System.in);
         System.out.println("===================================================================================");
-        System.out.println("=========================            BIDERKETA            =========================");
+        System.out.println("=========================             ZATIKETA            =========================");
         System.out.println("===================================================================================");
         System.out.println("Sartu lehen zenbakia");
         zenbaki1 = eskanerra.nextInt();
